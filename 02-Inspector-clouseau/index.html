@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>02 Inspector Clouseau</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body onresize="reDisplay()">
+    <header>
+        <h1 id="company"></h1>
+        <h2 id="slogan"></h2>
+    </header>
+
+    <main>
+        <h1 id="pageName"></h1>
+        <h2>What I learned:</h2>
+        <ul class="objectives">
+            <li>Display Window Properties</li>
+            <li>Display Document Properties</li>
+        </ul>
+
+        <h2>Window Properties</h2>
+        <p id="myWindow"></p>
+
+        <h2>Document Properties</h2>
+        <p id="myDocument"></p>
+
+        <button type="button" onclick="getURL();">Get Page URL</button>
+
+        <p><b>Click the button below to display the date and time this document was last modified.</b></p>
+        <button onclick="myModify()">Try It!</button>
+        <p id="demo"></p>
+    </main>
+
+    <footer id="mainfoot">
+        <p>Assignment for DGM2760 by Tavian Haddock</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

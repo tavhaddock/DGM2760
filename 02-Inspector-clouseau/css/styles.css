@@ -1,0 +1,42 @@
+/* body h1,h2,h3,h4,h5,h6,ul,li {
+    margin: 0;
+} */
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/clouseau.jpg");
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position-y: -4rem;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    padding: 5px 0 0 10px;
+}
+
+header h2 {
+    color: #444;
+    padding: 0 0 5px 10px;
+}
+
+main h2 {
+    color: #111;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#mainfoot {
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 5px 0 5px 0;
+}
