@@ -88,11 +88,18 @@ h2 {
 
 ul {
     margin: 0px;
+    list-style: none;
+
+}
+
+ul li.check:before {
+  content: '✓';
 }
 
 li {
     font-size: 18px;
     padding: 5px;
+    list-style: ;
 }
 
 img {
