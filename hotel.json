@@ -7,7 +7,7 @@
         "gym": "Yes",
         "roomTypes": ["King", "Queen", "Double"],
         "address": "Berliner Strasse 93",
-        "picture": "room1.jpg"
+        "picture": "images/room1.jpg"
       },
       {
         "name": "Hyatt",
@@ -15,7 +15,7 @@
         "gym": "Yes",
         "roomTypes": ["King", "Queen", "Accessible"],
         "address": "9801 International Drive",
-        "picture": "room2.jpg"
+        "picture": "images/room2.jpg"
       },
       {
         "name": "La Quinta",
@@ -23,7 +23,7 @@
         "gym": "Yes",
         "roomTypes": ["King", "Queen"],
         "address": "1752 S Clementine Street Anaheim",
-        "picture": "room3.jpg"
+        "picture": "images/room3.jpg"
       }
     ]
 }
