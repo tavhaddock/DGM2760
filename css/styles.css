@@ -13,13 +13,13 @@ body {
 
 header {
     max-width: 75rem;
-    height: 350px;
+    height: 400px;
     margin: 0 auto;
     margin-bottom: 0;
     position: relative;
 }
 
-#company {
+#titleName {
     position: relative;
     width: 320px;
     padding: 5px;
@@ -28,7 +28,7 @@ header {
     margin-bottom: 0px;
     padding-top: 25px;
     font-size: 36px;
-    color: #fff;
+    color: #D00900;
 }
 
 #slogan {
@@ -43,7 +43,7 @@ header {
 
 #headerImg {
     width:  75rem;
-    height: 285px;
+    height: 375px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,8 +56,12 @@ main {
     margin: 0 auto;
 }
 
+#mainDir {
+  padding: 25rem 0 25rem 0;
+}
+
 #pageName {
-    color: #076EBA;
+    color: #D00900;
     margin-top: 10px;
     padding-left: 20px;
 }
@@ -66,7 +70,7 @@ h2 {
     font-size: 26px;
     padding-left: 20px;
     margin: 0px;
-    color: #CC6402;
+    color: #6900EC;
 }
 
 ul {
@@ -81,68 +85,6 @@ li {
 
 p {
     margin-left: 20px;
-}
-
-input {
-    width: 80px;
-    text-align: center;
-}
-
-button {
-    width: 84px;
-    text-align: center;
-    margin-top: 5px;
-}
-
-article {
-    display: inline-flex;
-}
-
-img {
-    height: 200px;
-}
-
-.a1, div {
-    margin-left: 3px;
-    width: 85px;
-}
-
-.a1 {
-    width: 90px;
-    height: 100px;
-    flex-wrap: wrap;
-}
-
-.a2 {
-    font-size: 30px;
-    width: 90px;
-    height: 80px;
-    flex-wrap: wrap;
-}
-#attempts {
-    margin-left: 38px;
-    width: auto;
-}
-
-.a3 {
-    width: 200px;
-    height: 80px;
-    flex-wrap: wrap;
-}
-#feedback {
-    margin-left: 20px;
-    width: auto;
-}
-
-.a4 {
-    margin: 20px 0 0 25px;
-    width: 200px;
-    height: 200px;
-    flex-wrap: wrap;
-}
-#ribbon {
-    margin-left: 0px;
-    width: auto;
 }
 
 footer {
@@ -168,7 +110,7 @@ footer {
 }
 
 @media only screen and (max-width: 485px) {
-    #company{
+    #titleName {
         position: relative;
         float: right;
         width: 100%;
