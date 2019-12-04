@@ -1,0 +1,160 @@
+/* DGM 2760 Tavian Haddock */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    height: 1300px;
+    position: absolute;
+    color: black;
+}
+
+header {
+    max-width: 75rem;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+#header {
+    position: relative;
+    width: 320px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    font-size: 40px;
+    color: #fff;
+}
+
+#slogan {
+    position: relative;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 30px;
+    color: #fff;
+}
+
+#headerImg {
+    height: 500px;
+    width: 75rem;
+    position: absolute;
+}
+
+main {
+    position: relative;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.button {
+    height: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    border: solid 1px #837778;
+    width: auto;
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+}
+
+.hotels {
+    padding: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: #8F2301;
+}
+
+ul {
+    margin: 0px;
+}
+
+li {
+    font-size: 18px;
+    padding: 5px;
+}
+
+img {
+    width: 50%;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    color: white;
+    background: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#footertext {
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 775px) {
+    #headerImg {
+        width:  100%;
+    }
+
+    .button {
+        width: 30%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    body {
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    #header {
+        position: relative;
+        float: right;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        padding: 5px;
+        font-size: 30px;
+        color: white;
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    #slogan {
+        position: relative;
+        float: right;
+        width: 100%;
+        margin-top: auto;
+        text-align: center;
+        padding: 5px;
+        font-size: 24px;
+        color: white;
+        background-color: rgba(0,0,0,0.3);
+    }
+}
