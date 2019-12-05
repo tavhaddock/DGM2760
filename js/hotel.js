@@ -27,7 +27,7 @@ function hotelInfo(event) {
     })
     console.log(hotelChoice)
 
-    document.querySelector("#hotelName").textContent = `${hotelChoice.name} Hotel`
+    document.querySelector("#hotelName").textContent = `${hotelChoice.name}`
 
     document.querySelector("#address").textContent = `${hotelChoice.address}`
 
