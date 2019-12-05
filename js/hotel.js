@@ -23,7 +23,7 @@ document.querySelector("#laquinta").addEventListener('click', hotelInfo)
 
 function hotelInfo(event) {
     let hotelChoice = hotelData.hotels.find(hotel => {
-        return event.target.id === hotel.name.toLowerCase()
+        return event.target.id === hotels.name.toLowerCase()
     })
     console.log(hotelChoice)
 
