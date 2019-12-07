@@ -5,7 +5,7 @@ html, body {
     overflow-x: hidden;
 }
 
-body {
+body{
     margin: 0px;
     width: 100%;
     height: 1300px;
@@ -13,15 +13,15 @@ body {
     color: black;
 }
 
-header {
+header{
     max-width: 75rem;
-    height: 500px;
+    height: 200px;
     margin: 0 auto;
     margin-bottom: 0px;
     position: relative;
 }
 
-#header {
+#header{
     position: relative;
     width: 320px;
     padding: 5px;
@@ -30,35 +30,40 @@ header {
     margin-bottom: 0px;
     padding-top: 25px;
     font-size: 40px;
-    color: #fff;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
 }
 
-#slogan {
+#topic{
     position: relative;
     float: left;
     padding: 5px;
     margin-left: 10px;
     margin-top: 0px;
     font-size: 30px;
-    color: #fff;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
 }
 
-#headerImg {
-    height: 500px;
+#headerImg{
+    height: 200px;
     width: 75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
 }
 
-main {
+main{
     position: relative;
     max-width: 75rem;
     margin: 0 auto;
 }
 
-.button {
+.button{
     height: 20px;
     border-radius: 5px;
-    background-color: #333;
+    background-color: red;
     border: solid 1px #837778;
     width: auto;
     display: inline-block;
@@ -66,47 +71,46 @@ main {
     padding: 5px;
 }
 
-.hotels {
+.hotels{
     padding: 0px;
 }
 
-a {
+a{
     color: white;
     text-decoration: none;
 }
 
-.button:hover {
+.button:hover{
     cursor: pointer;
     background-color: black;
 }
 
-h2 {
+#pageName{
+    color: rgba(0, 0, 0, 0.863);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h2{
     font-size: 26px;
     margin-bottom: 5px;
-    color: #8F2301;
+    color: rgb(236, 115, 15);
 }
 
-ul {
+ul{
     margin: 0px;
-    list-style: none;
-
 }
 
-ul li.check:before {
-  content: '✓';
-}
-
-li {
+li{
     font-size: 18px;
     padding: 5px;
-    list-style: ;
 }
 
-img {
+img{
     width: 50%;
 }
 
-footer {
+footer{
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -118,30 +122,30 @@ footer {
     bottom: 0;
 }
 
-#footertext {
+#footertext{
   padding-bottom: 15px;
 }
 
 @media only screen and (max-width: 775px) {
-    #headerImg {
+    #headerImg{
         width:  100%;
     }
 
-    .button {
+    .button{
         width: 30%;
     }
 
-    img {
+    img{
         width: 100%;
     }
 
-    body {
+    body{
         height: 1200px;
     }
 }
 
 @media only screen and (max-width: 485px) {
-    #header {
+    #header{
         position: relative;
         float: right;
         width: 100%;
@@ -153,7 +157,7 @@ footer {
         background-color: rgba(0,0,0,0.3);
     }
 
-    #slogan {
+    #topic{
         position: relative;
         float: right;
         width: 100%;

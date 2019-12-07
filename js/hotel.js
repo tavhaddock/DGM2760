@@ -1,16 +1,14 @@
-// DGM 2760 Tavian Haddock
-
-//Document SetUp DOM
+// Document SetUp DOM
 document.querySelector('#header').innerText = "Hotel Booking"
 
-document.querySelector('#slogan').innerText = "An Escape From Your In-Laws"
+document.querySelector('#slogan').innerText = "An Escape From Your Kids"
 
 async function getHotelData() {
     try {
-        const response = await fetch('hotel.json')
-        return await response.json() // Return the JSON object
+        const response = await fetch('json/hotel.json')
+        return await response.json() // returning JSON object
     } catch (error) {
-        console.error(error)
+        console.error()
     }
 }
 
@@ -23,11 +21,11 @@ document.querySelector("#laquinta").addEventListener('click', hotelInfo)
 
 function hotelInfo(event) {
     let hotelChoice = hotelData.hotels.find(hotels => {
-        return event.target.id === hotels.name.toLowerCase()
+        return event.target.id === hotel.name.toLowerCase()
     })
     console.log(hotelChoice)
 
-    document.querySelector("#hotelName").textContent = `${hotelChoice.name}`
+    document.querySelector("#hotelName").textContent = `${hotelChoice.name} Hotel`
 
     document.querySelector("#address").textContent = `${hotelChoice.address}`
 
