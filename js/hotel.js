@@ -1,12 +1,12 @@
 // Document SetUp DOM
 document.querySelector('#header').innerText = "Hotel Booking"
 
-document.querySelector('#slogan').innerText = "An Escape From Your Kids"
+document.querySelector('#topic').innerText = "Get Away from your Kids "
 
 async function getHotelData() {
     try {
-        const response = await fetch('json/hotel.json')
-        return await response.json() // returning JSON object
+        const response = await fetch('hotel.json')
+        return await response.json() // Return the JSON object
     } catch (error) {
         console.error()
     }
@@ -16,11 +16,11 @@ let hotelData = {}
 getHotelData().then(data => hotelData = data)
 
 document.querySelector("#marriott").addEventListener('click', hotelInfo)
-document.querySelector("#hyatt").addEventListener('click', hotelInfo)
-document.querySelector("#laquinta").addEventListener('click', hotelInfo)
+document.querySelector("#sharaton").addEventListener('click', hotelInfo)
+document.querySelector("#hilton").addEventListener('click', hotelInfo)
 
 function hotelInfo(event) {
-    let hotelChoice = hotelData.hotels.find(hotels => {
+    let hotelChoice = hotelData.hotels.find(hotel => {
         return event.target.id === hotel.name.toLowerCase()
     })
     console.log(hotelChoice)

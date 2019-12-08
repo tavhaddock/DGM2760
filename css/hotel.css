@@ -1,4 +1,7 @@
-/* DGM 2760 Tavian Haddock */
+/* Delete wattermark Img */
+img[alt*="www.000webhost.com"] {
+    display: none;
+}
 
 html, body {
     max-width: 100%;
@@ -45,7 +48,7 @@ header{
     text-shadow: 2px 2px 5px #000;
 }
 
-#headerImg{
+#headerimg{
     height: 200px;
     width: 75rem;
     background-position: center;
@@ -127,7 +130,7 @@ footer{
 }
 
 @media only screen and (max-width: 775px) {
-    #headerImg{
+    #headerimg{
         width:  100%;
     }
 
