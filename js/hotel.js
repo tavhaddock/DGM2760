@@ -5,7 +5,7 @@ document.querySelector('#topic').innerText = "Get Away from your Kids "
 
 async function getHotelData() {
     try {
-        const response = await fetch('hotel.json')
+        const response = await fetch('data.json')
         return await response.json() // Return the JSON object
     } catch (error) {
         console.error()
