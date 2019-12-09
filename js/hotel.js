@@ -8,7 +8,7 @@ async function getHotelData() {
         const response = await fetch('hotel.json')
         return await response.json() // Return the JSON object
     } catch (error) {
-        console.error()
+        console.error(error)
     }
 }
 
